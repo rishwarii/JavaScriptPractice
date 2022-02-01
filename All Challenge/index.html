@@ -12,23 +12,44 @@
   </head>
 
   <body>
+    <!-- challenge box 1  -->
     <div class="container-1">
-      <h2 align="center">Challenge 1 : Show your Age in Days</h2>
+      <h2>Challenge 1 : Show your Age in Days</h2>
       <div class="flex-box-container-1">
         <div>
           <button class="btn btn-primary" onclick="getAge()">Click Me</button>
         </div>
         <!-- //each button with their own div tag so there is spacr between them  -->
         <div>
-          <button class="btn btn-danger">Reset</button>
+          <button class="btn btn-danger" onclick="resetAge()">Reset</button>
         </div>
       </div>
       <div class="flex-box-container-1">
         <div id="flex-box-results"> 
-          
         </div>
       </divk>
+    </div>
+    <!-- challenge boxx 2  -->
+    <div class = 'container-2'>
+      <h2>Challenge 2: Catto Generator </h2>
+      <div class ="flex-box-container-2">
+          <button class="btn btn-primary" id="img-button" onclick="generateCatto()">Generate Catto</button>
+      </div> 
+      <!-- results area  -->
+      <div class="flex-box-container-2" id="flex-cat">
+          <!-- results herer  -->
+        </div>
+      </div>
     </div>
     <script src="static/script.js"></script>
   </body>
 </html>
+
+
+
+
+
+
+<!-- <img src="https://thecatapi.com/api/images/get?format=src&type=gif" alt="catto img"> -->
+
+
